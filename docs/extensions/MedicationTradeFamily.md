@@ -4,7 +4,7 @@ custom_edit_url: null
 
 # MedicationTradeFamily
 
-The SDK supports the extension via the methods below.
+The SDK supports this extension via the methods below.
 
   
 ## URL Definition
@@ -49,5 +49,5 @@ To test whether the extension has been applied to a medication resource, the `Ha
 ``` csharp
 using Hl7.Fhir.Model;
 
-Boolean existsFamilyData = med.HasTradeFamily();
+Boolean existsTradeFamily = med.HasTradeFamily();
 ```
