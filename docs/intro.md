@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-Baqsed on UK Core published at : https://simplifier.net/guide/uk-core-implementation-guide?version=1.0.0
+Based on UK Core published at : https://simplifier.net/guide/uk-core-implementation-guide?version=1.0.0
 
 ## Getting Started
 

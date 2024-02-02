@@ -9,7 +9,9 @@ const sidebars = {
         'resources/res-location',
         'resources/res-medication',
         'resources/res-organization',
-        'resources/res-patient'
+        'resources/res-patient',
+        'resources/res-practitioner',
+        'resources/res-practitionerRole'
       ],
     },
     {

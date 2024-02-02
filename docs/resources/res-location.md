@@ -4,7 +4,7 @@ custom_edit_url: null
 
 # Location Resource
 
-The SDK supports the following features relevant to the `Location` resource.
+The SDK supports the following features relevant to the `https://fhir.hl7.org.uk/StructureDefinition/UKCore-Location` profile as defined with the UK Core.
 
 ## Extensions
 
