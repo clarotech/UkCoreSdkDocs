@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ukcore-sdk.netlify.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -40,106 +40,108 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: './sidebars.js'
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
         },
-      }),
-    ],
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        }
+      })
+    ]
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-        title: 'FHIR UKCore Development Kit',
-        logo: {
-          alt: 'ClaroTech Logo',
-          src: 'img/clarotech-icon_36_36.png',
-        },
-        items: [
-          {
-            href: '/docs/resources/included-resources',
-            activeBasePath: 'docs',
-            type: 'docSidebar',
-            sidebarId: 'sdkSidebar',
-            position: 'right',
-            label: 'Resources',
-          },
-          {
-            href: '/docs/extensions/overview',
-            activeBasePath: 'docs',
-            type: 'docSidebar',
-            sidebarId: 'sdkSidebar',
-            position: 'right',
-            label: 'Extensions',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'sdkSidebar',
-            position: 'right',
-            label: 'Versions',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'sdkSidebar',
-            position: 'right',
-            label: 'Feedback',
-          },
-          {
-            href: 'https://eightshift.com/',
-            label: 'EightShift',
-            position: 'left',
-          },
+    (
+      {
+        metadata: [
+          { name: 'keywords', content: 'test, testing' }
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+        // Replace with your project's social card
+        image: 'img/docusaurus-social-card.jpg',
+        navbar: {
+          title: 'FHIR UKCore Development Kit',
+          logo: {
+            alt: 'ClaroTech Logo',
+            src: 'img/clarotech-icon_36_36.png',
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-        logo: {
-          alt: 'ClaroTech Logo',
-          src: 'img/clarotech-icon_36_36.png',
+          items: [
+            {
+              href: '/docs/resources/included-resources',
+              activeBasePath: 'docs',
+              type: 'docSidebar',
+              sidebarId: 'sdkSidebar',
+              position: 'right',
+              label: 'Resources',
+            },
+            {
+              href: '/docs/extensions/overview',
+              activeBasePath: 'docs',
+              type: 'docSidebar',
+              sidebarId: 'sdkSidebar',
+              position: 'right',
+              label: 'Extensions',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'sdkSidebar',
+              position: 'right',
+              label: 'Versions',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'sdkSidebar',
+              position: 'right',
+              label: 'Feedback',
+            },
+            {
+              href: 'https://eightshift.com/',
+              label: 'EightShift',
+              position: 'left',
+            },
+          ],
         },
-      },
-      prism: {
-        theme: prismThemes.oneDark,
-        darkTheme: prismThemes.dracula,
-        additionalLanguages: ["csharp"]
-      },
-    }),
+        footer: {
+          style: 'dark',
+          links: [
+            {
+              title: 'Community',
+              items: [
+                {
+                  label: 'Stack Overflow',
+                  href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                },
+                {
+                  label: 'Discord',
+                  href: 'https://discordapp.com/invite/docusaurus',
+                },
+                {
+                  label: 'Twitter',
+                  href: 'https://twitter.com/docusaurus',
+                },
+              ],
+            },
+          ],
+          copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+          logo: {
+            alt: 'ClaroTech Logo',
+            src: 'img/clarotech-icon_36_36.png',
+          },
+        },
+        prism: {
+          theme: prismThemes.oneDark,
+          darkTheme: prismThemes.dracula,
+          additionalLanguages: ["csharp"]
+        },
+      }
+    ),
 };
 
 export default config;
