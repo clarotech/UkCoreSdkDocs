@@ -68,7 +68,7 @@ const config = {
       navbar: {
         title: 'FHIR UKCore Development Kit',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'ClaroTech Logo',
           src: 'img/clarotech-icon_36_36.png',
         },
         items: [
@@ -111,7 +111,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Communqittty',
+            title: 'Community',
             items: [
               {
                 label: 'Stack Overflow',
@@ -129,6 +129,10 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        logo: {
+          alt: 'ClaroTech Logo',
+          src: 'img/clarotech-icon_36_36.png',
+        },
       },
       prism: {
         theme: prismThemes.oneDark,
