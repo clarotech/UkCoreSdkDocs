@@ -27,7 +27,44 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <section className={clsx('SdkFeatures')}>
+          <div className="container">
+            <div className="row">
+              {/* <HomepageFeatures /> */}
+              <div className={clsx('col col--4')}>
+                <div className="text--center">
+                  <img src="/img/hl7uk.png" />
+                </div>
+                <div className="text--center padding-horiz--md">
+                  <Heading as="h3">HL7 UK Core</Heading>
+                  <p>The SDK provides convenient methods for implementing the UK Core specification.</p>
+                </div>
+              </div>
+              {/* <HomepageFeatures /> */}
+              <div className={clsx('col col--4')}>
+                <div className="text--center">
+                  <img src="/img/logo-fhir-flame-195-297.png" />
+                </div>
+                <div className="text--center padding-horiz--md">
+                  <Heading as="h3">FHIR Release R4</Heading>
+                  <p>Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+                    ahead and move your docs into the <code>docs</code> directory.</p>
+                </div>
+              </div>
+              {/* <HomepageFeatures /> */}
+              <div className={clsx('col col--4')}>
+                <div className="text--center">
+                  <img src="/img/Nuget-logo.png" />
+                </div>
+                <div className="text--center padding-horiz--md">
+                  <Heading as="h3">C# NuGet Package</Heading>
+                  <p>Extend or customize your website layout by reusing React. Docusaurus can
+                    be extended while reusing the same header and footer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );
