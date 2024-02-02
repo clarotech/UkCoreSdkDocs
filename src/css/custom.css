@@ -56,6 +56,18 @@ a .menu__link:hover {
   padding-right: 10px;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-size: clamp(.8888888888888888rem, calc(.89437rem - .02741vw), .8680555555555557rem);
+  letter-spacing: .0142em;
+  line-height: 1.5;
+}
+
 @media screen and (max-width: 996px) {
   :root {
     --ifm-font-size-base: 18px;
