@@ -35,7 +35,7 @@ export default function Home() {
                 </div>
                 <div className="text--center padding-horiz--md">
                   <Heading as="h3">HL7 UK Core</Heading>
-                  <p>The SDK provides convenient methods for implementing the UK Core specification.</p>
+                  <p>The SDK provides convenient methods for implementing FHIR as per the UK Core specification.</p>
                 </div>
               </div>
               {/* <HomepageFeatures /> */}
@@ -45,8 +45,7 @@ export default function Home() {
                 </div>
                 <div className="text--center padding-horiz--md">
                   <Heading as="h3">FHIR Release R4</Heading>
-                  <p>Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-                    ahead and move your docs into the <code>docs</code> directory.</p>
+                  <p>FHIR release R4 is the version of FHIR currently recommended for use by NHS England.</p>
                 </div>
               </div>
               {/* <HomepageFeatures /> */}
@@ -56,8 +55,7 @@ export default function Home() {
                 </div>
                 <div className="text--center padding-horiz--md">
                   <Heading as="h3">C# NuGet Package</Heading>
-                  <p>Extend or customize your website layout by reusing React. Docusaurus can
-                    be extended while reusing the same header and footer.</p>
+                  <p>The SDK is freely available as a .NET NuGet package and can</p>
                 </div>
               </div>
             </div>
