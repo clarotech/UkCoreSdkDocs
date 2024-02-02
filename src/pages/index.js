@@ -35,7 +35,9 @@ export default function Home() {
                 </div>
                 <div className="text--center padding-horiz--md">
                   <Heading as="h3">HL7 UK Core</Heading>
-                  <p>The SDK provides convenient methods for implementing FHIR as per the UK Core specification.</p>
+                  <p>
+                    The SDK provides convenient methods for implementing the UK Core specification. It caters for extensions and identifiers defined within the UK Core Implementation Guide.
+                  </p>
                 </div>
               </div>
               {/* <HomepageFeatures /> */}
@@ -55,7 +57,7 @@ export default function Home() {
                 </div>
                 <div className="text--center padding-horiz--md">
                   <Heading as="h3">C# NuGet Package</Heading>
-                  <p>The SDK is freely available as a .NET NuGet package and can</p>
+                  <p>The SDK is freely available as a .NET NuGet package and can be used as part of your FHIR based products. </p>
                 </div>
               </div>
             </div>

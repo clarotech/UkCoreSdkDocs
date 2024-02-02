@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        The SDK provides convenient methods for implementing the UK Core specification.
+        The SDK provides convenient methods for implementing the UK Core specification. It caters for extensions and identifiers defined within the UK Core Implementation Guide.
       </>
     ),
   },
