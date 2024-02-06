@@ -15,6 +15,15 @@ using FhirUkCore.Uris;
 String extensionUrl = UkCoreUris.ExtensionBirthSex;
 
 ```
+## HasBirthSex
+
+To test whether the extension has been applied to a patient resource, the `HasBirthSex` method can be used.  
+This returns a boolean.
+``` csharp
+using Hl7.Fhir.Model;
+
+Boolean existsBirthSex = pat.HasBirthSex();
+```
 
 ## SetBirthSex
 
@@ -40,12 +49,3 @@ using Hl7.Fhir.Model;
 Code sex = pat.GetBirthSex();
 ```
 
-## HasBirthSex
-
-To test whether the extension has been applied to a patient resource, the `HasBirthSex` method can be used.  
-This returns a boolean.
-``` csharp
-using Hl7.Fhir.Model;
-
-Boolean existsBirthSex = pat.HasBirthSex();
-```

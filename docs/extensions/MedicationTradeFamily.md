@@ -15,6 +15,14 @@ using FhirUkCore.Uris;
 String extensionUrl = UkCoreUris.ExtensionMedicationTradeFamily;
 
 ```
+## HasTradeFamily
+
+To test whether the extension has been applied to a Medication resource, the `HasTradeFamily` method can be used. This returns a boolean.
+``` csharp
+using Hl7.Fhir.Model;
+
+Boolean existsTradeFamily = med.HasTradeFamily();
+```
 
 ## SetTradeFamily
 
@@ -43,11 +51,3 @@ using Hl7.Fhir.Model;
 CodeableConcept tradeFamilyData = med.GetTradeFamily();
 ```
 
-## HasTradeFamily
-
-To test whether the extension has been applied to a Medication resource, the `HasTradeFamily` method can be used. This returns a boolean.
-``` csharp
-using Hl7.Fhir.Model;
-
-Boolean existsTradeFamily = med.HasTradeFamily();
-```
