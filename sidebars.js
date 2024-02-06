@@ -21,7 +21,8 @@ const sidebars = {
         'extensions/overview',
         'extensions/BirthSex',
         'extensions/ContactPreference',
-        'extensions/MedicationTradeFamily'
+        'extensions/MedicationTradeFamily',
+        'extensions/ResidentialStatus'
       ],
     },
     {

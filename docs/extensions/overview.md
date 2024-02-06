@@ -4,7 +4,7 @@
 
 # Extension Library
 
-The following extensions are catered for within the UKCore SDK.
+The following extensions are catered for within the UK Core SDK.
 
 ## Medication
 
@@ -16,7 +16,7 @@ The following extensions are catered for within the UKCore SDK.
 - [Extension-UKCore-ContactPreference](/docs/extensions/ContactPreference)
 - [Extension-UKCore-DeathNotificationStatus](/docs/extensions/ContactPreference)
 - [Extension-UKCore-EthnicCategory](/docs/extensions/ContactPreference)
-- [Extension-UKCore-ResidentialStatus](/docs/extensions/ContactPreference)
+- [Extension-UKCore-ResidentialStatus](/docs/extensions/ResidentialStatus)
 - [Extension-UKCore-BirthSex](/docs/extensions/ContactPreference)
 
 

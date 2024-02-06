@@ -12,7 +12,7 @@ The SDK supports the following features relevant to the `Patient` resource.
 - [Extension-UKCore-ContactPreference](/docs/extensions/ContactPreference)
 - [Extension-UKCore-DeathNotificationStatus](/docs/extensions/MedicationTradeFamily)
 - [Extension-UKCore-EthnicCategory](/docs/extensions/MedicationTradeFamily)
-- [Extension-UKCore-ResidentialStatus](/docs/extensions/MedicationTradeFamily)
+- [Extension-UKCore-ResidentialStatus](/docs/extensions/ResidentialStatus)
 - [Extension-UKCore-BirthSex](/docs/extensions/MedicationTradeFamily)
 
 ## Extensions (from FHIR R4)
