@@ -43,7 +43,7 @@ Boolean existsPreferredContactMethod = pat.HasPreferredContactMethod();
 
 ### SetPreferredContactMethod
 
-The **PreferredContactMethod** within the extension is a **CodeableConcept** bound to the the **UKCorePreferredContactMethod** ValueSet.  The binding strength is **Extensible** so codes outside of the ValueSet can be used.
+The **PreferredContactMethod** within the extension is a **CodeableConcept** bound to the **UKCorePreferredContactMethod** ValueSet.  The binding strength is **Extensible** so codes outside of the ValueSet can be used.
 
 The enumeration type  `UKCorePreferredContactMethod` is provided to set the contact method using the defined codes from the UK Core.
 
@@ -150,7 +150,7 @@ Boolean existsPreferredWrittenCommunicationFormat = pat.HasPreferredWrittenCommu
 ```
 
 ### SetPreferredWrittenCommunicationFormat
-The **PreferredWrittenCommunicationFormat** within the extension is a **CodeableConcept** bound to the the **UKCorePreferredWrittenCommunicationFormat** ValueSet.  
+The **PreferredWrittenCommunicationFormat** within the extension is a **CodeableConcept** bound to the **UKCorePreferredWrittenCommunicationFormat** ValueSet.  
 The binding strength is **Extensible** so codes outside of the ValueSet can be used.
 
 The enumeration type  `UKCorePreferredWrittenCommunicationFormat` is provided to set the communication formats using the defined codes from the UK Core.
