@@ -18,6 +18,7 @@ The following resources are currently catered for within the current version of 
 ## Resources To Be Included
 
 - AllergyIntolerance 
+- Immunization
 - MedicationAdministration 
 - MedicationDispense 
 - MedicationRequest 

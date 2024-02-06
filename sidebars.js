@@ -19,6 +19,7 @@ const sidebars = {
       label: 'Extensions',
       items: [
         'extensions/overview',
+        'extensions/BirthSex',
         'extensions/ContactPreference',
         'extensions/MedicationTradeFamily'
       ],
