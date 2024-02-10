@@ -12,7 +12,6 @@ The SDK supports this FHIR R4 extension via the methods below.
 using FhirUkCore.Uris;
 
 String extensionUrl = UkCoreUris.ExtensionInterpreterRequired;
-
 ```
 ## HasInterpreterRequired
 
@@ -32,7 +31,6 @@ using Hl7.Fhir.Model;
 
 var pat = new Patient();
 pat.SetInterpreterRequired(true);
-
 ```
 
 ## GetInterpreterRequired
@@ -44,4 +42,3 @@ using Hl7.Fhir.Model;
 
 Boolean interpreterReqd = pat.GetInterpreterRequired();
 ```
-
