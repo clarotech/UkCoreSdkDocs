@@ -15,7 +15,8 @@ The following extensions are catered for within the UK Core SDK.
 - [Extension-UKCore-BirthSex](/docs/extensions/BirthSex)
 - [Extension-UKCore-ContactPreference](/docs/extensions/ContactPreference)
 - [Extension-UKCore-DeathNotificationStatus](/docs/extensions/ContactPreference)
-- [Extension-UKCore-EthnicCategory](/docs/extensions/ContactPreference)
+- [Extension-UKCore-EthnicCategory](/docs/extensions/EthnicCategory)
+- [patient-interpreterRequired (FHIR R4 extension)](/docs/extensions/InterpreterRequired)
 - [Extension-UKCore-ResidentialStatus](/docs/extensions/ResidentialStatus)
 - [Extension-UKCore-BirthSex](/docs/extensions/ContactPreference)
 

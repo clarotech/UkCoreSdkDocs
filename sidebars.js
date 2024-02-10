@@ -22,6 +22,7 @@ const sidebars = {
         'extensions/BirthSex',
         'extensions/ContactPreference',
         'extensions/EthnicCategory',
+        'extensions/InterpreterRequired',
         'extensions/MedicationTradeFamily',
         'extensions/ResidentialStatus'
       ],
