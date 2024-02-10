@@ -16,7 +16,7 @@ String extensionUrl = UkCoreUris.ExtensionResidentialStatus;
 ```
 ## HasResidentialStatus
 
-To test whether the extension has been applied to a **Patient** resource, the `HasTradeFamily` method can be used. This returns a boolean.
+To test whether the extension has been applied to a **Patient** resource, the `HasResidentialStatus` method can be used. This returns a boolean.
 ``` csharp
 using Hl7.Fhir.Model;
 
