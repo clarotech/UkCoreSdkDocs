@@ -1,5 +1,4 @@
 ---
-custom_edit_url: null
 ---
 
 # Location Resource
@@ -8,13 +7,13 @@ The SDK supports the following features relevant to the `https://fhir.hl7.org.uk
 
 ## Extensions
 
-No extensions are defined for the `Location` resource within UKCore.
+No extensions are defined for the `Location` resource within UK Core.
 
 ## Identifiers
 
 ### ODS Site Code
 
-The system defined for ODS site codes with UKCore is ```https://fhir.nhs.uk/Id/ods-site-code```
+The system defined for ODS site codes within UK Core is ```https://fhir.nhs.uk/Id/ods-site-code```
 
 
 This is defined within the SDK as ```UkCoreUris.SystemOdsSiteCode```
@@ -32,7 +31,7 @@ loc.Identifier.Add(id01);
 
 ### SetOdsSiteCode
 
-UKCore states that there can only be one identifier set using an ODS site code.  
+UK Core states that there can only be one identifier set using an ODS site code.  
 As such, this can be reduced to the following, allowing the identifier to be set directly.
 
 ```csharp  title="SetOdsSiteCode()"
