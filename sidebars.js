@@ -20,6 +20,7 @@ const sidebars = {
       items: [
         'extensions/overview',
         'extensions/BirthSex',
+        'extensions/CadavericDonor',
         'extensions/ContactPreference',
         'extensions/EthnicCategory',
         'extensions/InterpreterRequired',
@@ -31,8 +32,8 @@ const sidebars = {
       type: 'category',
       label: 'Releases',
       items: [
-        'extensions/overview',
         'release/release',
+        'versions',
       ],
     },
     {

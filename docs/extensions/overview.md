@@ -13,6 +13,7 @@ The following extensions are catered for within the UK Core SDK.
 ## Patient
 
 - [Extension-UKCore-BirthSex](/docs/extensions/BirthSex)
+- [patient-cadavericDonor (FHIR R4 extension)](/docs/extensions/CadavericDonor)
 - [Extension-UKCore-ContactPreference](/docs/extensions/ContactPreference)
 - [Extension-UKCore-DeathNotificationStatus](/docs/extensions/ContactPreference)
 - [Extension-UKCore-EthnicCategory](/docs/extensions/EthnicCategory)

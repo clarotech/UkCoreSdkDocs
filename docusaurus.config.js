@@ -8,8 +8,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'UKCore SDK for FHIR',
-  tagline: 'Helping developers write great code for healthcare',
+  title: 'UKCore C# SDK for FHIR',
+  tagline: 'Helping developers write great code for healthcare.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -90,6 +90,8 @@ const config = {
               label: 'Extensions',
             },
             {
+              href: '/docs/versions',
+              activeBasePath: 'docs',
               type: 'docSidebar',
               sidebarId: 'sdkSidebar',
               position: 'right',

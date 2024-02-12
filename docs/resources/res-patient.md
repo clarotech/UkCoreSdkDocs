@@ -17,7 +17,7 @@ The SDK supports the following features relevant to the `Patient` resource.
 
 ## Extensions (from FHIR R4)
 - [patient-birthPlace](/docs/extensions/BirthSex)
-- [patient-cadavericDonor](/docs/extensions/BirthSex)
+- [patient-cadavericDonor](/docs/extensions/CadavericDonor)
 - [patient-interpreterRequired](/docs/extensions/InterpreterRequired)
   
 ## Identifiers
