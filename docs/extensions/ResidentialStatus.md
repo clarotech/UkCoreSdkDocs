@@ -12,7 +12,6 @@ The SDK supports this extension via the methods below.
 using FhirUkCore.Uris;
 
 String extensionUrl = UkCoreUris.ExtensionResidentialStatus;
-
 ```
 ## HasResidentialStatus
 
@@ -48,7 +47,6 @@ CodeableConcept cc = new CodeableConcept();
 cc.Coding.Add(new Coding("http://acme.codes", "ex01", "example"));
 
 pat.SetResidentialStatus(cc);
-
 ```
 
 ## GetResidentialStatus

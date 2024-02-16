@@ -1,8 +1,7 @@
 ---
-custom_edit_url: null
 ---
 
-# ContactPreference
+# DeathNotification
 
 The SDK supports the **Contact Preference** extension for the [Patient](/docs/resources/res-patient) resource.
 

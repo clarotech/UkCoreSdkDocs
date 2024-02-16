@@ -10,13 +10,14 @@ The SDK supports the following features relevant to the `Patient` resource.
 
 - [Extension-UKCore-BirthSex](/docs/extensions/BirthSex)
 - [Extension-UKCore-ContactPreference](/docs/extensions/ContactPreference)
-- [Extension-UKCore-DeathNotificationStatus](/docs/extensions/MedicationTradeFamily)
+- [Extension-UKCore-DeathNotificationStatus](/docs/extensions/DeathNotification)
 - [Extension-UKCore-EthnicCategory](/docs/extensions/EthnicCategory)
 - [Extension-UKCore-ResidentialStatus](/docs/extensions/ResidentialStatus)
-- [Extension-UKCore-BirthSex](/docs/extensions/MedicationTradeFamily)
+- [Extension-UKCore-BirthSex](/docs/extensions/BirthSex)
 
 ## Extensions (from FHIR R4)
-- [patient-birthPlace](/docs/extensions/BirthSex)
+- [patient-birthPlace](/docs/extensions/BirthPlace)
+- [patient-birthTime](/docs/extensions/BirthTime)
 - [patient-cadavericDonor](/docs/extensions/CadavericDonor)
 - [patient-interpreterRequired](/docs/extensions/InterpreterRequired)
   

@@ -12,7 +12,6 @@ The SDK supports this extension via the methods below.
 using FhirUkCore.Uris;
 
 String extensionUrl = UkCoreUris.ExtensionEthnicCategory;
-
 ```
 ## HasEthnicCategory
 
@@ -43,7 +42,6 @@ CodeableConcept cc = new CodeableConcept();
 cc.Coding.Add(new Coding(UkCoreUris.SystemEthnicCategoryWales, "H", "Indian"));
 
 pat.SetEthnicCategory(cc);
-
 ```
 
 ## GetEthnicCategory

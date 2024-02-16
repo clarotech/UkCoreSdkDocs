@@ -1,5 +1,4 @@
 ---
-custom_edit_url: null
 ---
 
 # MedicationTradeFamily
@@ -13,7 +12,6 @@ The SDK supports this extension via the methods below.
 using FhirUkCore.Uris;
 
 String extensionUrl = UkCoreUris.ExtensionMedicationTradeFamily;
-
 ```
 ## HasTradeFamily
 

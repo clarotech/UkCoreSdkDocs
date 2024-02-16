@@ -19,9 +19,12 @@ const sidebars = {
       label: 'Extensions',
       items: [
         'extensions/overview',
+        'extensions/BirthPlace',
         'extensions/BirthSex',
+        'extensions/BirthTime',
         'extensions/CadavericDonor',
         'extensions/ContactPreference',
+        'extensions/DeathNotification',
         'extensions/EthnicCategory',
         'extensions/InterpreterRequired',
         'extensions/MedicationTradeFamily',
@@ -33,7 +36,8 @@ const sidebars = {
       label: 'Releases',
       items: [
         'release/release',
-        'versions',
+        'release/backlog',
+        'release/versions',
       ],
     },
     {
