@@ -38,7 +38,7 @@ const sidebars = {
       items: [
         'release/release',
         'release/backlog',
-        'release/versions',
+        'release/sdkVersions',
       ],
     },
     {
