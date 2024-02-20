@@ -10,6 +10,7 @@ The SDK supports the following features relevant to the `Patient` resource.
 
 - [Extension-UKCore-BirthSex](/docs/extensions/BirthSex)
 - [Extension-UKCore-ContactPreference](/docs/extensions/ContactPreference)
+- [Extension-UKCore-ContactRank](/docs/extensions/ContactRank)
 - [Extension-UKCore-DeathNotificationStatus](/docs/extensions/DeathNotification)
 - [Extension-UKCore-EthnicCategory](/docs/extensions/EthnicCategory)
 - [Extension-UKCore-ResidentialStatus](/docs/extensions/ResidentialStatus)

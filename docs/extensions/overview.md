@@ -17,6 +17,7 @@ The following extensions are catered for within the UK Core SDK.
 - [patient-birthTime](/docs/extensions/BirthTime) (FHIR R4 extension)
 - [patient-cadavericDonor](/docs/extensions/CadavericDonor) (FHIR R4 extension)
 - [Extension-UKCore-ContactPreference](/docs/extensions/ContactPreference)
+- [Extension-UKCore-ContactRank](/docs/extensions/ContactRank)
 - [Extension-UKCore-DeathNotificationStatus](/docs/extensions/DeathNotification)
 - [Extension-UKCore-EthnicCategory](/docs/extensions/EthnicCategory)
 - [patient-interpreterRequired](/docs/extensions/InterpreterRequired) (FHIR R4 extension)

@@ -1,5 +1,4 @@
 ---
-custom_edit_url: null
 ---
 
 # BirthSex
@@ -13,7 +12,6 @@ The SDK supports the BirthSex extension for the [Patient](/docs/resources/res-pa
 using FhirUkCore.Uris;
 
 String extensionUrl = UkCoreUris.ExtensionBirthSex;
-
 ```
 ## HasBirthSex
 
@@ -36,7 +34,6 @@ using Hl7.Fhir.Model;
 Patient pat = new Patient();
 
 pat.SetBirthSex(UKCoreBirthSex.Female);
-
 ```
 
 ## GetBirthSex

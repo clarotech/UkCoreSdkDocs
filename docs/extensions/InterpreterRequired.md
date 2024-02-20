@@ -3,7 +3,7 @@
 
 # InterpreterRequired
 
-The SDK supports this FHIR R4 extension via the methods below.
+The SDK supports this FHIR R4 extension for the [Patient](/docs/resources/res-patient) resource.
 
   
 ## URL Definition

@@ -3,7 +3,7 @@
 
 # MedicationTradeFamily
 
-The SDK supports this extension via the methods below.
+The SDK supports the **Trade Family** extension for the [Medication](/docs/resources/res-medication) resource.
 
   
 ## URL Definition

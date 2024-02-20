@@ -3,7 +3,7 @@
 
 # CadavericDonor
 
-The SDK supports this FHIR R4 extension via the methods below.
+The SDK supports this FHIR R4 extension for the [Patient](/docs/resources/res-patient) resource.
 
   
 ## URL Definition
@@ -40,5 +40,5 @@ This will return a `null` if no data is available.
 ``` csharp
 using Hl7.Fhir.Model;
 
-Boolean interpreterReqd = pat.GetSetCadavericDonor();
+Boolean interpreterReqd = pat.GetCadavericDonor();
 ```

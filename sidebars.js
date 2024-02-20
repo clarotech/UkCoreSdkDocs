@@ -24,6 +24,7 @@ const sidebars = {
         'extensions/BirthTime',
         'extensions/CadavericDonor',
         'extensions/ContactPreference',
+        'extensions/ContactRank',
         'extensions/DeathNotification',
         'extensions/EthnicCategory',
         'extensions/InterpreterRequired',

@@ -1,5 +1,4 @@
 ---
-custom_edit_url: null
 ---
 
 # BirthPlace
@@ -13,7 +12,6 @@ The SDK supports this FHIR R4 extension for the [Patient](/docs/resources/res-pa
 using FhirUkCore.Uris;
 
 String extensionUrl = UkCoreUris.ExtensionBirthPlace;
-
 ```
 ## HasBirthPlace
 

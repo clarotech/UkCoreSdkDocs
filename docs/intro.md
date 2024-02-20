@@ -20,12 +20,9 @@ The SDK is published as a NuGet package and builds on top of the widely used **H
 The [installation](./installation) details of this SDK are available [here](./installation)
 ## To Do
 
-- Patient - birthPlace
-- Patient - birthTime
 - Patient - contactRank
 - Patient - copyCorrespondenceIndicator
 - Patient - communication proficiency
-- Patient - death notification
 
 - Org - Identifier ODS Org Code
 - Org - Identifier ODS Site Code

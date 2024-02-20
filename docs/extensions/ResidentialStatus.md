@@ -3,7 +3,7 @@
 
 # ResidentialStatus
 
-The SDK supports this extension via the methods below.
+The SDK supports the **Residential Status** extension for the [Patient](/docs/resources/res-patient) resource.
 
   
 ## URL Definition

@@ -7,10 +7,8 @@ sidebar_position: 1
 
 ## To Do
 
-- Patient - contactRank
 - Patient - copyCorrespondenceIndicator
 - Patient - communication proficiency
-- Patient - death notification
 
 - Org - Identifier ODS Org Code
 - Org - Identifier ODS Site Code
@@ -19,8 +17,7 @@ sidebar_position: 1
 
 - Immunization - Extension parent present
 - Immunization - Extension vaccinationProcedure	
-
-
+- 
 - Telecom - otherContactSystem
 
 - Address - addressKey

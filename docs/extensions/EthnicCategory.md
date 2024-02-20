@@ -3,7 +3,7 @@
 
 # EthnicCategory
 
-The SDK supports this extension via the methods below.
+The SDK supports the **Ethnic Category** extension for the [Patient](/docs/resources/res-patient) resource.
 
   
 ## URL Definition
