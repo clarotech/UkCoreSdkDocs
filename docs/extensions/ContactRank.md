@@ -15,7 +15,7 @@ String extensionUrl = UkCoreUris.ExtensionContactRank;
 ```
 ## HasContactRank
 
-To test whether the extension has been applied to a `Patient.ContactComponent` type, the `HasContactRank` method can be used.  
+To test whether the extension has been applied to a `Patient.ContactComponent` type, the `HasContactRank` method can be used. 
 This returns a boolean.
 ``` csharp
 using Hl7.Fhir.Model;
@@ -47,6 +47,6 @@ This will return a **Contact Rank** as a **PositiveInt** datatype. If the extens
 ``` csharp
 using Hl7.Fhir.Model;
 
-Code sex = pat.GetBirthSex();
+PositiveInt rank = pat.contact[0].GetContactRank();
 ```
 
