@@ -18,21 +18,5 @@ The feactures within the SDK include the following:
 The SDK is published as a NuGet package and builds on top of the widely used **Hl7.Fhir.R4** package published at https://www.nuget.org/packages/Hl7.Fhir.R4
 
 The [installation](./installation) details of this SDK are available [here](./installation)
-## To Do
-
-- Patient - contactRank
-- Patient - copyCorrespondenceIndicator
-- Patient - communication proficiency
-
-- Org - Identifier ODS Org Code
-- Org - Identifier ODS Site Code
-- Org - Extension main location
-- Org - Extension organizationPeriod
-
-- Immunization - Extension parent present
-- Immunization - Extension vaccinationProcedure	
 
 
-- Telecom - otherContactSystem
-
-- Address - addressKey

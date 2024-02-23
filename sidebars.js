@@ -8,7 +8,6 @@ const sidebars = {
         'resources/included-resources',
         'resources/res-location',
         'resources/res-medication',
-        'resources/res-organization',
         'resources/res-patient',
         'resources/res-practitioner',
         'resources/res-practitionerRole'
@@ -36,9 +35,9 @@ const sidebars = {
       type: 'category',
       label: 'Releases',
       items: [
-        'release/release',
-        'release/backlog',
         'release/sdkVersions',
+        'release/backlog',
+
       ],
     },
     {
