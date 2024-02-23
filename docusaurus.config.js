@@ -90,7 +90,7 @@ const config = {
               label: 'Extensions',
             },
             {
-              href: '/docs/versions',
+              href: '/docs/release/sdkVersions',
               activeBasePath: 'docs',
               type: 'docSidebar',
               sidebarId: 'sdkSidebar',
