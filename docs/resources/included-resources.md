@@ -10,6 +10,8 @@ The following resources are currently catered for within the current version of 
 
 - [Location](/docs/resources/res-location)
 - [Medication](/docs/resources/res-medication)
+- [MedicationAdministration](/docs/resources/res-medicationAdministration)
+- [MedicationDispense](/docs/resources/res-medicationDispense)
 - [Patient](/docs/resources/res-patient)
 - [Practitioner](/docs/resources/res-practitioner)
 - [PractitionerRole](/docs/resources/res-practitionerRole)
@@ -18,8 +20,6 @@ The following resources are currently catered for within the current version of 
 
 - AllergyIntolerance 
 - Immunization
-- MedicationAdministration 
-- MedicationDispense 
 - MedicationRequest 
 - MedicationStatement 
 - Organization

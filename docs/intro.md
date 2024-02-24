@@ -7,7 +7,7 @@ sidebar_position: 1
 This SDK provides a NuGet package to simplify the development of **FHIR** based applications that need to use content from the **FHIR UK Core** published at : https://simplifier.net/guide/uk-core-implementation-guide?version=1.0.0
 
 The SDK allows developers to create code that is aligned to the **FHIR Profiles** defined within the UK Core Package.
-The feactures within the SDK include the following:
+The features within the SDK include the following:
 
 -   For each [resource profile](./resources/included-resources), create "helper" methods to create any NHS specific identifiers
 -   For each [resource profile](./resources/included-resources), create simplified methods to

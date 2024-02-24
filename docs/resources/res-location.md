@@ -3,11 +3,11 @@
 
 # Location Resource
 
-The SDK supports the following features relevant to the `https://fhir.hl7.org.uk/StructureDefinition/UKCore-Location` profile as defined with the UK Core.
+The SDK supports the following features relevant to the **Location** profile as defined with the UK Core.
 
 ## Extensions
 
-No extensions are defined for the `Location` resource within UK Core.
+No extensions are defined for the **Location**  resource within UK Core.
 
 ## Identifiers
 

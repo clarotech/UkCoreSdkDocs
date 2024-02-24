@@ -41,7 +41,7 @@ Boolean existsDeathNotificationDate = pat.HasDeathNotificationDate();
 
 The **deathNotificationStatus** within the extension is a **CodeableConcept** bound to the **UKCoreDeathNotificationStatus** ValueSet.  The binding strength is **Extensible** so codes outside of the ValueSet can be used.
 
-The enumeration type  `UKCoreDeathNotificationStatus` is provided to set the death notification statis using the defined codes from the UK Core.
+The enumeration type  `UKCoreDeathNotificationStatus` is provided to set the death notification status using the defined codes from the UK Core.
 
 ``` csharp
 using Hl7.Fhir.Model;

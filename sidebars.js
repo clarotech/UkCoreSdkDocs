@@ -8,6 +8,8 @@ const sidebars = {
         'resources/included-resources',
         'resources/res-location',
         'resources/res-medication',
+        'resources/res-medicationAdministration',
+        'resources/res-medicationDispense',
         'resources/res-patient',
         'resources/res-practitioner',
         'resources/res-practitionerRole'

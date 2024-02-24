@@ -4,7 +4,7 @@ custom_edit_url: null
 
 # Patient Resource
 
-The SDK supports the following features relevant to the `Patient` resource.
+The SDK supports the following features relevant to the **Patient** resource.
 
 ## Extensions (from UK Core)
 
