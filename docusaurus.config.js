@@ -103,11 +103,6 @@ const config = {
               position: 'right',
               label: 'Feedback',
             },
-            {
-              href: 'https://eightshift.com/',
-              label: 'EightShift',
-              position: 'left',
-            },
           ],
         },
         footer: {

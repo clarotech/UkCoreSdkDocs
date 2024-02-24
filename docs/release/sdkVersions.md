@@ -3,7 +3,7 @@
 
 # SDK Versions
 
-## Current Version
+## Current Version - 1.0.0-alpha-r1
 
 The current version of the UK Core SDK is targeted at the STU1 version of the UK Core as published by [HL7 UK](https://www.hl7.org.uk/).
 
