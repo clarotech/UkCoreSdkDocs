@@ -42,11 +42,8 @@ const sidebars = {
 
       ],
     },
-    {
-      type: 'category',
-      label: 'Contact / Feedback',
-      items: ['extensions/overview'],
-    },
+    'contact',
+    'installation'
   ]
 
 };
