@@ -45,6 +45,7 @@ const config = {
         blog: {
           showReadingTime: true,
         },
+        gtag: { trackingID: "G-Q8ZMPK485V" },
         theme: {
           customCss: './src/css/custom.css',
         },
